@@ -1,0 +1,129 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+#title{
+padding: 10px;
+text-align:center;
+}
+
+#title h1{
+font-size:35px;
+padding: 0 10px;
+}
+
+#description{
+font-size:1.5rem;
+padding:10px;
+}
+
+#year{
+font-size:1.2rem;
+padding:10px;
+}
+
+img{
+width:100%;
+max-width:100%;
+height:auto;
+display:block;
+}
+
+#img-caption{
+padding:5px;
+text-align:center;
+}
+
+.smalldivider{
+width:30%;
+margin:7px auto;
+}
+
+#tribute-info{
+margin:0 auto;
+width:100%;
+}
+
+#tribute-info ul {
+list-style-type:none;
+font-size:20px;
+padding:10px;
+}
+
+.head{
+text-align:center;
+}
+
+.heading{
+padding:10px;
+}
+
+h3{
+font-size:30px;
+}
+
+.change1{
+background-color:#3c2d27;
+color:white;
+}
+
+.change2{
+color:#4D4541;
+}
+
+.quotelink{
+text-align:center;
+padding-top:10px;
+font-size:20px;
+}
+
+.quotelink>a{
+color:#4d4541;
+text-decoration:none;
+}
+
+.awardblock{
+width: 250px;
+padding: 20px;
+background-color: #4d4541;
+color:white;
+border-radius: 12px;
+margin: 10px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.awardblock>img{
+width:150px;
+height:150px;
+border-radius:100px;
+}
+
+.row{
+display:flex;
+flex-wrap:wrap;
+flex-direction:row;
+justify-content: space-around;
+}
+
+.padding{
+padding:10px;
+}
+
+ .songs{
+display: flex;
+justify-content: center;
+margin: 20px 0;
+}
+
+.designation{
+text-align:center;
+}
+
+.designation>a{
+text-decoration:none;
+color: white;
+}  
